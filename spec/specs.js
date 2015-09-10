@@ -4,6 +4,6 @@ describe('romanNumeral', function() {
     });
 
     it("displays LXVI for the value of 66", function(){
-        expect(romanNumeral(66)).to.equal("LXVI");
+        expect(romanNumeral(999)).to.equal("CMXCIX");
     });
 });
